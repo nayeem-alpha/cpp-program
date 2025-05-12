@@ -2,10 +2,6 @@
 using namespace std;
 
 int sumOfDigits(int n) {
-    while(n>9)
-    {
-
-    
     int sum = 0;
     while (n != 0) {
 
@@ -19,7 +15,6 @@ int sumOfDigits(int n) {
         n /= 10;
     }
     return sum;
-}
 }
 
 int main() {
